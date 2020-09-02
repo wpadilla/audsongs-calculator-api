@@ -29,7 +29,7 @@ app.post('/save-sales-data', (req, res) => {
        res.status(200).json({ status: 'success' });
    })
 });
-server.listen(80, () => {
+server.listen(8080, () => {
     console.log('Server running');
 });
 
